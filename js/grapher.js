@@ -126,7 +126,7 @@ function renderMenu(){
 
 function renderAlert(type){
   if (type == "success"){
-    $("#alert-container").append("<div class=\"alert alert-success alert-dismissible fade in\" role=\"alert\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button><strong>It worked!</strong> Your information has been plotted correctly.</div>");
+    // $("#alert-container").append("<div class=\"alert alert-success alert-dismissible fade in\" role=\"alert\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button><strong>It worked!</strong> Your information has been plotted correctly.</div>");
     /*
     <div class=\"alert alert-success alert-dismissible fade in\" role=\"alert\">
       <button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">
